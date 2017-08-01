@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="starBar">
+        <attr name="starNumber" format="integer" />
+        <attr name="starSize" format="dimension" />
+        <attr name="starPadding" format="dimension" />
+        <attr name="starLight" format="reference" />
+        <attr name="starDark" format="reference" />
+        <attr name="isStarInteger" format="boolean" />
+    </declare-styleable>
+</resources>
